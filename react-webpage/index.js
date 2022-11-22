@@ -6,8 +6,8 @@ function ClickableButton() {
   const [clicked, setClick] = React.useState(false);
 
   if (clicked) {
-    // return 'Hello World!';
-  return React.createElement('h1', {style: {color : purple }}, 'Hello World!')
+  // return 'Gotcha!';
+  return React.createElement('h1', {style: {color : "purple" }}, 'Hello World!');
   }
 
   return React.createElement(

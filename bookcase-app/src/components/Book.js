@@ -24,4 +24,11 @@ import React from 'react';
    </div>);
 }
 
+function addBook(title) {
+  console.log(`The Book 
+ '${title}' was clicked`);
+  }
+
+  // 
+
 export default Book;

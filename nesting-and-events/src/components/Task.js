@@ -2,9 +2,7 @@ import React from 'react';
 
 function Task(props) { 
   
-  function toggleComplete(id){
-    console.log(`Task with the id '${id}' was clicked`);
-  }
+  
 
   return (
       <div className={"task"+(props.isComplete?" checked":"")} >
