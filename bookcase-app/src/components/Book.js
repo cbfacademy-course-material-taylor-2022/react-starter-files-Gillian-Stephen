@@ -24,10 +24,10 @@ import React from 'react';
    </div>);
 }
 
-function addBook(title) {
-  console.log(`The Book 
- '${title}' was clicked`);
-  }
+// function addBook(title) {
+//   console.log(`The Book 
+//  '${title}' was clicked`);
+//   }
 
   // 
 
