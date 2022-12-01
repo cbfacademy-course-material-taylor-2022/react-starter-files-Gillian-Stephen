@@ -20,15 +20,17 @@ import React from 'react';
      {retailPrice && <p>£{retailPrice.amount}</p>}
      {authors && <p>{authors.join(', ')}</p>}
      {description && <p>{description}</p>}
+     <button onClick={() => addBook(title)}>Add +</button>
+
      </div>
    </div>);
 }
 
-// function addBook(title) {
-//   console.log(`The Book 
-//  '${title}' was clicked`);
-//   }
+function addBook(title) {
+  console.log(`The Book 
+ '${title}' was clicked`);
+  }
 
-  // 
+  
 
 export default Book;
